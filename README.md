@@ -1,4 +1,4 @@
-# Python Homework
+# PyBank
 
 I imported the necessary modules.
 Specified the path where the CSV file is located.
@@ -27,3 +27,11 @@ I then instructed python to print to the terminal, the title of the output file,
 
 I then instructed python to export a text file with the title of the output file, the total number of months, the total profit, the average changes in profit, the greatest increase in profits and the month when it happened, and the lowest increase/highest decrease in profits and the month when it happened.
     The program did that by finding the folder where the CSV file was located and assigning the path to the 'current_dir' variable. Then joining the path to the folder holding the CSV file and the analysis folder and assigning that path to the variable 'output_dir'. After that it combined the path to the output_dir folder with the string PyBankOutput.text to create a new path to the file named PyBankOutput.text, and assigning the path to the 'filename' variable. The code then used the 'filename' variable to open the path where the output text will be stored. The sys.stdout function redirects the standard output to the 'filename' variable instead of the terminal which is the automatic location where outputs are usually printed out to. It then uses print() statements top write the output to the text file and it finishes by restoring the standard output location back to the terminal.
+
+Joel Johnson, Ehsan Aref Adib and Andrew Hong all helped me brainstorm and troubleshoot my code. They didn't write any code for me but they were very helpful in helping me walk through the exercise and troubleshoot when I got stuck. 
+
+Luna, one of the LAs helped me troubleshoot my code as well and helped me write the part of the code that calculates change from one month to the next, add those changes together and find the average of the changes in profit/losses.
+
+
+#PyPoll
+

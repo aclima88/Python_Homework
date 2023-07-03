@@ -15,9 +15,6 @@ greatestIncrease = 0
 greatestDecrease = 0
 totalChange = 0
 
-# Use Pandas to the read the CSV file.
-#df = pd.read_csv(budget_data)
-
 # Open the csv file and read through each row 
 with open(budget_data, "r") as financial_data:
     reader = csv.reader(financial_data, delimiter=",")

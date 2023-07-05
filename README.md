@@ -35,3 +35,50 @@ Luna, one of the LAs helped me troubleshoot my code as well and helped me write 
 
 #PyPoll
 
+Import the necessary modules
+
+Specify the path where the CSV file is located
+
+Initiate the needed variables
+
+Open the CSV file using "read" mode.
+    Initialize the CSV reader
+
+    Skip the header row
+
+    Loop through the rows in the CSV file
+
+        Increment the total number of votes
+
+
+        Get the candidate name from the row and add it to the candidateList list
+
+
+Count the occurrences of each candidate's name using Counter
+
+
+Find the winner with the most votes by going inot the candidate_counts dictionary counting the number of votes each candidate won.
+
+
+Print out the total number of votes cast
+
+
+Calculate and print the percentage of votes for each candidate
+
+    Print the name of each candidate, the % of votes they each won and the total number of votes they each won
+
+Print out the name of the Winner
+
+Save and export a text file of the output of my code
+Find the folder in which the csv file is saved and assign it to the current_dir variable
+
+
+Join the path to the folder holding the CSV file and the analysis folder and assign the path to the variable output_dir
+
+
+Combine the path to the output_dir folder with the string PyBankOutput.text to create a new path to the file named PyBankOutput.text and assign it to the filename variable
+
+
+Use the filename variable to open the path where the output text will be stored.
+
+I received help from the LAs and used chat GPT and Google Bard to help me figure out syntax issue.
